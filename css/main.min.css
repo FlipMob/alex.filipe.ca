@@ -1530,7 +1530,7 @@ body {
 .uppercase {
   text-transform: uppercase; }
 
-.alexs-stupid-bar {
+.header {
   width: 100%;
   background-color: #424242;
   padding-top: 10px; }
@@ -1685,6 +1685,38 @@ p {
   padding-bottom: 30px; }
 
 @media only screen and (max-width: 40.0625em) {
+  nav {
+    width: 100%;
+    height: inherit;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: 77px;
+  }
+  nav ul {
+    margin: 0 auto;
+    padding-top: 70px;
+  }
+
+  nav li:not(.logo) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  nav li.logo {
+    width: 150px;
+    position: absolute;
+    top: 133px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
   .outer {
     width: 100%;
     padding-top: 28px;
